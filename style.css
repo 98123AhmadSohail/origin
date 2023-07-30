@@ -1,0 +1,50 @@
+#header {
+  background: url('imgs/header.jpg') fixed;
+  height: 650px;
+  background-color: rgba(0, 0, 0, 0.9);  
+}
+
+#header::after {
+  content:"";
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.6);
+}
+
+#header p, button  {
+  position: relative;
+  z-index: 1;
+}
+
+#header p {
+  font-size: 30px;
+}
+#header p span {
+  font-size: 7rem;
+  font-weight: bold;
+}
+
+ul#left {
+  float: left;
+}
+ul#right {
+  float: right;
+}
+
+div.continer{
+  padding: 0 45px 0 45px;
+}
+
+section#support {
+  background-color: #343a40;
+  height: 200px;
+  
+}
+
+section#footer {
+  background-color: #343a40;
+  height: 50px;
+}
